@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Satisfy&display=swap&subset=latin-ext");
+
+/*#########################################
+
+General Page Info
+
+############################################*/
+
+:root {
+  --text-color: #373d3f;
+  --main-click-color: #0061d1;
+  --main-click-hover: #0041a1;
+  --border-color: darkgray;
+  --sidebar-color: #f3f3f3;
+  --center-color: white;
+  --nav-hover: #eaeaea;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+:root {
+  font-family: Arimo, sans-serif;
+  color: var(--text-color);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main,
+header,
+footer {
+  max-width: 1600px;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 600px;
+  padding: 1em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+}
+header h1 {
+  font-family: "Satisfy", serif;
+  font-size: 2.2rem;
+}
+
+main {
+  /* display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch; */
+  background-color: var(--sidebar-color);
+  border-radius: 0.75rem;
+  /* flex: 1; */
+  border: 0.2em solid var(--border-color);
+}
+
+/*#########################################
+
+Footer Styles
+
+############################################*/
+
+footer {
+  margin-top: 0.65rem;
+  text-align: center;
+}

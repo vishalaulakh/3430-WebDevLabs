@@ -135,7 +135,8 @@ if ( !empty($phone) && validatePhoneNumber($phone) == false){
               <label for="phone-type" sr-only>Number Type</label>
               <select name="phone-type" id="phone-type">
                 <option value="">Type</option>
-                <option value="Mobile" <?= ($phoneType == "Mobile") ? "selected" : "" ?> >Mobile</option>
+                <option value="Mobile" 
+                 >Mobile</option>
                 <option value="Home" <?= ($phoneType == "Home") ? "selected" : "" ?> >Home</option>
                 <option value="Work" <?= ($phoneType == "Work") ? "selected" : "" ?> >Work</option>
               </select>
